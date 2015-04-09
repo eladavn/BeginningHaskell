@@ -15,5 +15,6 @@ library
                    Chapter2.ListTuples,
                    Chapter2.PatternMatching,
                    Chapter2.Records,
-                   Chapter2.SimpleFunctions
+                   Chapter2.SimpleFunctions,
+                   Chapter3.ParametricPolymorphism
 
