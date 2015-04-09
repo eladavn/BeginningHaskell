@@ -1,4 +1,4 @@
-module Guards where
+module Chapter2.Guards where
 
 ackermann :: Int -> Int -> Int
 ackermann 0 n  = n+1

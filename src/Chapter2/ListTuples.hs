@@ -1,4 +1,4 @@
-module ListTuples where
+module Chapter2.ListTuples where
 
 sorted :: [Integer] -> Bool
 sorted [] = True

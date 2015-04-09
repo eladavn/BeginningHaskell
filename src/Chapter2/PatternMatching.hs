@@ -1,6 +1,6 @@
-module PatternMatching where
+module Chapter2.PatternMatching where
 
-import DataTypes
+import Chapter2.DataTypes
 
 g :: Client -> String
 g client = case client of
@@ -21,7 +21,7 @@ getClientsPerGender clients = if (length clients == 0)
                               else addItemToClientsPerGender (head clients) (getClientsPerGender (tail clients))
                               
 discountTimeMachine :: TimeMachine -> Float -> TimeMachine
-discountTimeMachine (TimeMachine name model price) percentage = TimeMachine name model (price*percentage/100)
+discountTimeMachine tm@(TimeMachine {price = pr}) percentage = tm {price = pr*percentage/100}
 
 discountTimeMachines :: [TimeMachine] -> Float -> [TimeMachine]
 discountTimeMachines machines percentage = if null machines 

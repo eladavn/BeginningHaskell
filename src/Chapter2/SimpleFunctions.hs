@@ -1,4 +1,4 @@
-module SimpleFunctions where
+module Chapter2.SimpleFunctions where
 
 firstOrEmpty :: [String] -> String
 firstOrEmpty lst = if not (null lst) then head lst else "empty"

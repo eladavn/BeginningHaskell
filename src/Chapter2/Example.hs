@@ -1,3 +1,3 @@
-module Example where
+module Chapter2.Example where
 
 

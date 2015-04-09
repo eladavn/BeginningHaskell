@@ -1,4 +1,4 @@
-module DataTypes where
+module Chapter2.DataTypes where
 
 data Client = GovOrg String
     | Company String Integer Person String
@@ -11,7 +11,6 @@ data Person = Person String String Gender
 data Gender = Male | Female | Unknown
     deriving Show 
     
-data TimeMachine = TimeMachine String Integer Float
+data TimeMachine = TimeMachine {name::String, model::Integer, price::Float}
     deriving Show
-                              
 

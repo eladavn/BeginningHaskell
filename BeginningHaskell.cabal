@@ -8,4 +8,12 @@ library
   hs-source-dirs:  src
   build-depends:   base >= 4
   ghc-options:     -Wall
+  other-modules:   
+                   Chapter2.DataTypes,
+                   Chapter2.Example,
+                   Chapter2.Guards,
+                   Chapter2.ListTuples,
+                   Chapter2.PatternMatching,
+                   Chapter2.Records,
+                   Chapter2.SimpleFunctions
 
