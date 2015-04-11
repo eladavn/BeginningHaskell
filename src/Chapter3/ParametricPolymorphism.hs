@@ -1,4 +1,3 @@
-
 module Chapter3.ParametricPolymorphism where
 
 swapTriple ::(t,t1,t2) -> (t1,t2,t)
@@ -15,4 +14,6 @@ index [] = []
 index [x] = [(0,x)]
 index (x:xs) = let (n,_):_ = index xs
                in (n+1,x):(index xs)
+               
+-- bla
 
