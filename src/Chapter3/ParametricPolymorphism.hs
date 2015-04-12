@@ -15,5 +15,5 @@ index [x] = [(0,x)]
 index (x:xs) = let (n,_):_ = index xs
                in (n+1,x):(index xs)
                
--- My comments
+--foo
 
