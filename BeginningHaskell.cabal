@@ -16,5 +16,6 @@ library
                    Chapter2.PatternMatching,
                    Chapter2.Records,
                    Chapter2.SimpleFunctions,
-                   Chapter3.ParametricPolymorphism
+                   Chapter3.ParametricPolymorphism,
+                   Chapter3.AnnonymousFunctions
 
