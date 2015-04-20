@@ -27,7 +27,7 @@ shortest x y
 
 findShortest' :: [String] -> Maybe String
 findShortest' []  = Nothing
-findShortest' xs = Just $ foldl1 (shortest) xs
+findShortest' xs = Just $ foldl1 shortest xs 
 
 myAll :: [Bool] -> Bool
 myAll [x]  = x
